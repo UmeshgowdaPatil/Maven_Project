@@ -35,6 +35,7 @@ public class AppTest {
 		capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 		System.setProperty("webdriver.ie.driver", ".//webdriver//IEDriverServer.exe");
 		WebDriver driver = new InternetExplorerDriver(capabilities);
+		System.out.println("IE Instantiated");
 		
 		
 		driver.get("https://www.google.co.in/");
