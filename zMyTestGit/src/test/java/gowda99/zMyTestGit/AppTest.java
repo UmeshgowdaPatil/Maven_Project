@@ -28,6 +28,7 @@ public class AppTest {
 		capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 		System.setProperty("webdriver.chrome.driver", ".//webdriver//chromedriver.exe");
 		WebDriver driver = new ChromeDriver(capabilities);
+		System.out.println("Chrome Instantiated");
 		
 //		DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
 //		capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
