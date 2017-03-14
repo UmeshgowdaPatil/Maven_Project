@@ -19,6 +19,7 @@ public class AppTest {
 		profile.setAssumeUntrustedCertificateIssuer(false);
 		System.setProperty("webdriver.gecko.driver", ".//webdriver//geckodriver.exe");
 		WebDriver driver = new FirefoxDriver(profile);
+		System.out.println("Firefox Instantiated");
 		
 //		DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 //		capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
